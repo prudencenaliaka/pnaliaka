@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naliaka's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/96bb7ddd1e.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+<body>
+<div id="header">
+<div class="container">
+
+<nav>
+<img src="images/logo.png" class="logo"> 
+<ul id="sidemenu">
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+</ul>  
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+    <p>WEB/GRAPHICS DESIGN</p>
+    <h1>Hello, I'm <span>Prudence</span><br>Naliaka From Kenya</h1>
+</div>
+</div>
+
+  </div> 
+<div id="about">
+<div class="container">
+<div class="row">
+<div class="about-col-1">
+<img src="images/prudence2.png" alt="">
+</div>
+<div class="about-col-2">
+<h1 class="sub-title">About Me</h1>
+<p>Naliaka is a specialized front end web developer with HTML,CSS and Javascript. Apart from that she does a bit of graphics design with GIMP software and Adobe Illustrator. She is also pretty much good at data analysis with python and Microsoft excel. Naliaka is fueled by her passion to develop diverse and dynamic websites,She also considers herself a "ready learner",eager to build both on her web design skills and graphic design skills.Her hunger for knowledge and determination to turn knowledge into action has contributed to her most recent job at Webuye County Hospital.Naliaka believes it is all mindset.</p>
+<div class="tab-titles">
+
+<p class="tab-links" onclick="opentab('experience')">Experience</p>
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents " id="experience">
+ <ul>
+    <li><span>2022 sept-current</span><br>Director sales and marketing KCB</li>
+    <li><span>2022 jan -2022 aug</span><br>ICT assistant webuye county hospital</li>
+    <li><span>2021 sept - 2021 dec</span><br>Intern at Teck Kidz Africa</li>
+  </ul>
+</div>
+<div class="tab-contents active-tab" id="skills">
+  <ul>
+     <li><span>Web Design</span><br>Designing Websites</li>
+     <li><span>Graphics Design</span><br>Designing logos,posters,banners</li>
+     <li><span>Data Analysis</span><br>Analysing data with Excel and python</li>
+   </ul>
+ </div>
+ <div class="tab-contents" id="education">
+  <ul>
+     <li><span>2021 - 2018</span><br>Bs Computer Science Kabarak University</li>
+     <li><span>2019 march - 2019 jan</span><br>Moringa Prep front-end programming</li>
+   </ul>
+ </div>
+</div>
+</div>
+</div> 
+</div>
+   
+<div id="services">
+<div class="container">
+  <h1 class="sub-title">My Services</h1>
+  <div class="services-list">
+
+<div>
+  <i class="fa-solid fa-code"></i>
+<h2>Web Design</h2>
+<p>I develop quality and commendable websites at affordable prices using Javascript,HTML and CSS</p>
+    <a href="#">learn more</a>
+</div>
+<div>
+  <i class="fa-solid fa-crop-simple"></i>
+  <h2>Graphics Design</h2>
+  <p>I design high end logos,banners, cards and posters at a very small fee</p>
+      <a href="#">learn more</a>
+  </div>
+  <div>
+    <i class="fa-solid fa-chart-simple"></i>
+    <h2>Data Analysis</h2>
+    <p>I collect relevant data,clean,analyse and visualize at affordable prices</p>
+        <a href="#">learn more</a>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+<div id="portfolio">
+<div class="container">
+  <h1 class="sub-title">My Work</h1>
+<div class="work-list">
+  <div class="work">
+    <img src="images/work1.png" alt="">
+    <div class="layer">
+      <h3>Shoe website</h3>
+      <p>The website allows you to view different designs of shoes</p>
+      <a href="https://prudencenaliaka.github.io/shoes/"><i class="fa-solid fa-square-up-right"></i></a>
+    </div>
+  </div>
+  <div class="work">
+    <img src="images/work2.png" alt="">
+    <div class="layer">
+      <h3>Music Website</h3>
+      <p>The website allows you to listen to different types of music i.e gospel,raggae,bongo</p>
+      <a href="https://prudencenaliaka.github.io/machoka/"><i class="fa-solid fa-square-up-right"></i></a>
+    </div>
+  </div>
+  <div class="work">
+    <img src="images/Josh.png" alt="">
+    <div class="layer">
+      <h3>Music group logo</h3>
+      <p>This is a logo for The Diary Of a Psalmist music group</p>
+      <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+    </div>
+  </div>
+</div>
+<a href="#" class="btn">See More</a>
+</div>
+</div>
+
+<div id="contact">
+<div class="container">
+  <div class="row">
+<div class="contact-left">
+  <h1 class="sub-title">Contact me</h1>
+  <p><i class="fas-fa-paper-plane"></i> prudencenaliaka@gmail.com</p>
+  <p><i class="fas-fa-phone-square-alt"></i>+254717560188</p>
+  <div class="social-icons">
+   <a href=""><i class="fa-brands fa-facebook"></i></a>
+   <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+   <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+  </div>
+  <a href="images/prudenceCV.pdf" download class="btn btn2">Download CV</a>
+</div>
+<div class="contact-right">
+<form name="submit-to-google-sheet">
+<input type="text" name="Name" placeholder="Enter Your Name" required>
+<input type="email" name="Email" placeholder="Enter Your email" required>
+<textarea name="Message" rows="6" placeholder="Write your message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg"></span>
+</div>
+ </div>
+
+</div>
+<div class="copyright">
+  <p>Copyright @pnaliaka.</p>
+</div>
+</div>
+
+
+
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+</script>
+<script>
+  var sidemenu=document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+<script>
+  const scriptURL = "https://script.google.com/macros/s/AKfycbzzz044FnmC3ccJniD_oYyUKOmUuFmeeaLztMIl0uolDItXne6VNQed49IlHTKKQngl/exec"
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+         msg.innerHTML = "" 
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
